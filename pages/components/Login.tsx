@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import girlImg from "../../public/girl.webp";
 
 export const Login = () => {
@@ -31,7 +32,9 @@ export const Login = () => {
         </div>
 
         <div className='mt-10 space-y-4'>
-          <p className=''>Forgot username or password ?</p>
+          <Link href={"/forgot-password"} className=''>
+            Forgot username or password ?
+          </Link>
 
           <p className=''>
             Dont have an account ? <span className='text-blue-500 font-semibold'>Sign Up</span>
