@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import girlImg from "../../public/girl.webp";
 
-export const Login = () => {
+const Login = () => {
   return (
     <div className='w-full grid lg:grid-cols-2 h-[91vh] '>
       <div className='mt-32 px-4 max-w-sm mx-auto '>
@@ -50,3 +50,5 @@ export const Login = () => {
     </div>
   );
 };
+
+export default Login;

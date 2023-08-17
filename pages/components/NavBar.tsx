@@ -1,4 +1,4 @@
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <div className='w-full border-b-4 px-4'>
       <nav className='w-full max-w-[90rem] mx-auto py-4 justify-between items-center  flex '>
@@ -50,3 +50,5 @@ export const NavBar = () => {
     </div>
   );
 };
+
+export default NavBar;

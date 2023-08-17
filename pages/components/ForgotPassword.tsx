@@ -1,4 +1,4 @@
-export const ForgotPassword = () => {
+const ForgotPassword = () => {
   return (
     <div>
       <div className='mt-32 px-4 max-w-sm mx-auto '>
@@ -20,3 +20,5 @@ export const ForgotPassword = () => {
     </div>
   );
 };
+
+export default ForgotPassword;
